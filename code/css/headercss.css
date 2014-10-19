@@ -64,11 +64,14 @@ table {
 #menu ul li {
   display: inline;
   font-family: Segoe UI;
-  padding: 7px;
-  color: #357682;
 }
-#menu ul li:hover {
+#menu ul li a:hover {
   background-color: #357682;
   border-radius: 3px;
   color: #fff;
+}
+#menu ul li a {
+  text-decoration: none;
+  padding: 7px;
+  color: #357682;
 }
