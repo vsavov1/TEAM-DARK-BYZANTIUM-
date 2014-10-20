@@ -52,6 +52,33 @@ table {
   margin: 0 auto;
 }
 #header {
-  width: 500px;
-  height: 500px;
+  width: 940px;
+  height: 72px;
+}
+#logo {
+  width: 232px;
+  height: 72px;
+  background-image: url('../img/logo.png');
+  float: left;
+}
+#menu {
+  float: right;
+}
+#menu ul {
+ vertical-align: middle;
+ line-height: 72px;
+}
+#menu ul li {
+  display: inline;
+  font-family: Segoe UI;
+}
+#menu ul li a:hover {
+  background-color: #357682;
+  border-radius: 3px;
+  color: #fff;
+}
+#menu ul li a {
+  text-decoration: none;
+  padding: 7px;
+  color: #357682;
 }
