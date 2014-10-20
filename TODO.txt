@@ -1,16 +1,10 @@
-﻿Калоян: 
+Todo:
 
-Георги: секция Резервации и Събития
+Kaloyan: DJs section and participate in About The Party section
 
-Теодор: секции Контакти и Лого на "НАКОВалня"
+Georgi: Reservations section and participate in About The section
 
-Веселин: -
+Teodor: Contacts section and participate in About The section
 
-
-Забележки:
-
-Страницата е разделена както по приложената снимка;
-Диджейс е падащ лист с избор на един от тримата водещи;
-Брояча трябва да се вгради в началната страница;
-При избор от менютата се променя само body секцията всичко друго е статично;
+Veselin: Index(Main) page and Programming girls section
 
