@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
+    <link href="css/confirmationPopUp.css" rel="stylesheet">
     <title></title>
     <script>
         function getWindowName(){
             var windowName = this.window.name;
-            document.getElementById("selected_table").textContent="Избрана маса:" + windowName;
+            document.getElementById("selected_table").textContent="Избрана маса: " + windowName;
+        }
+
+        function clearBox(element){
+            element.value="";
         }
 
     </script>
 </head>
+
 <body onload="getWindowName()">
 
     <p id="selected_table"></p>
-    <textarea>Име</textarea>
-    <textarea>Фамилия</textarea>
-    <select class="selector">
 
+    <h1>Моля попълнете данните за резервация:</h1>
+
+    <textarea class="nameBox" onfocus="clearBox(this)">Име</textarea>
+    <textarea class="nameBox" onfocus="clearBox(this)">Фамилия</textarea>
+
+    <p>Предпочитан алкохол:</p>
+    <select class="selector">
         <option>Уиски</option>
         <option>Водка</option>
         <option>Бира</option>
     </select>
 
+    <p>Предпочитана програмистка:</p>
+    <select class="selector">
+        <option>Java Girl</option>
+        <option>C++ Girl</option>
+        <option>HTML Girl</option>
+    </select>
 
+    <input type="button" value="Потвърди" onClick='alert("Успешна резервация!"); window.close();'>
 
 </body>
+
 </html>
