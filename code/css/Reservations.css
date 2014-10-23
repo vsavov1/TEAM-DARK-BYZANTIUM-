@@ -80,13 +80,13 @@ q:before, q:after {
   color: #357682;
 }
 
-
-
-
 body table{
     border: 2px dashed gray;
     border-radius: 3%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
     padding: 15px;
+    padding-bottom: 10px;
     background-color: #efefef;
     margin: 0 auto;
     margin-top: 10px;
@@ -99,6 +99,13 @@ body td.popup {
     background-color: gray;
     width: 42px;
     height: 40px;
+}
+
+#bottomTable{
+    margin-left: 25%;
+}
+body td.empty{
+    width: 30px;
 }
 
 body p {
@@ -119,10 +126,6 @@ body p {
      cursor: pointer;
  }
 
-
-body td.empty{
-    width: 30px;
-}
 
 #wall{
     display: inline-block;
@@ -170,7 +173,7 @@ body td.empty{
 #intro{
     font-family: Segoe UI;
     font-size: 16px;
-    color: #357682;;
+    color: #357682;
     display: block;
     width: 400px;
     margin: 0 auto;
