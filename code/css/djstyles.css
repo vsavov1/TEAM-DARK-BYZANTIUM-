@@ -1,0 +1,34 @@
+/*The styles for the profile*/
+#profile{
+    width:900px;
+    height:200px;
+    margin-top: 50px;
+
+
+}
+#info{
+    float:left;
+    padding:8px;
+    font-size: 20px;
+}
+#djphoto{
+    width:200px;
+    height:200px;
+    float:left
+}
+.stat{
+    font-weight: 700;
+}
+.personal{
+    font-style: italic;
+}
+li{
+    margin-bottom: 8px;
+}
+/*biografia*/
+#biografia{
+    width:900px;
+    height:400px;
+    margin-top:50px;
+}
+
