@@ -82,3 +82,42 @@ table {
   padding: 7px;
   color: #357682;
 }
+#slider {
+  width: 940px;
+  height: 390px;
+  background-image: url('../img/slider2.jpg');
+  margin-top: 15px;
+}
+ul.countdown {
+  width: 462px;
+  height: 97px;
+  list-style: none;
+  display: block;
+  margin-left: 472px;
+  margin-top: 244px;
+  float: left;
+}
+ul.countdown li {
+  display: inline-block;
+  background: rgba(58,94,112,0.5);
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 10px;
+}
+ul.countdown li span {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  font-family: Segoe UI;
+  color: #fff;
+}
+ul.countdown li.seperator {
+  font-size: 80px;
+  line-height: 70px;
+  vertical-align: top;
+}
+ul.countdown li p {
+  color: #a7abb1;
+  font-size: 14px;
+  font-family: Segoe UI;
+}
