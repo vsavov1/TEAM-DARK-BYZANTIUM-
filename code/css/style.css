@@ -166,3 +166,26 @@ ul.countdown li p {
   margin-left: 69px;
   margin-top: 5px;
 }
+#beer {
+  width: 940px;
+  height: 400px;
+  float: left;
+}
+#beericon {
+  width: 118px;
+  height: 112px;
+  background-image: url('../img/promo.png');
+  margin-top: 15px;
+  margin-top: 15px;
+  float: left;
+}
+#beertext {
+  width: 580px;
+  height: 400px;
+  margin-left: 127px;
+  margin-top: 15px;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Segoe UI;
+  color: #f89b37;
+}
