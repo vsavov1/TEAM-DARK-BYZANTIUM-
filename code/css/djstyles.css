@@ -1,10 +1,18 @@
 /*The styles for the profile*/
+@font-face {
+  font-family: 'segoeui';
+  src: url('font/segoeui.css') format('truetype');
+ }
+
+#wrapper{
+    font-family: Segoe UI;
+	font-size: 14px;
+}
+
 #profile{
     width:900px;
     height:200px;
     margin-top: 50px;
-
-
 }
 #info{
     float:left;
