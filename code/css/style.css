@@ -180,12 +180,34 @@ ul.countdown li p {
   float: left;
 }
 #beertext {
-  width: 580px;
-  height: 400px;
-  margin-left: 127px;
+  width: 600px;
+  height: 300px;
+  float: left;
+}
+#beertexttile{
+  margin-left: 15px;
   margin-top: 15px;
   font-size: 33px;
   font-weight: bold;
   font-family: Segoe UI;
   color: #f89b37;
+  float: left;
+}
+#beertextpromo {
+  float: left;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Segoe UI;
+  color: #f89b37;
+  margin-left: 15px;
+  margin-top: 15px;
+  line-height: 40px;
+}
+#beerpic {
+  width: 127px;
+  height: 333px;
+  float: right;
+  background-image: url('../img/beer.png');
+  margin-top: 15px;
+  margin-right: 30px;
 }
