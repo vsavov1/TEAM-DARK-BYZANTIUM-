@@ -91,122 +91,61 @@ body{
 
 
 #wrapper{
+    margin-top: 80px;
     font-family: Segoe UI;
     width: 940px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
+.info{
+    font-size: 17px;
+}
 
 .stat{
     font-weight: 700;
+    color: #F89B37;
 }
 .personal{
-    font-style: italic;
     color: #357682;
 }
 li{
     margin-bottom: 8px;
 }
 
-
 h2{
     color: #F89B37;
     font-weight: bold;
-
 }
-/*nakov*/
-#nakovprofile{
+
+.profile{
     width:920px;
-    height:300px;
-    margin-top: 75px;
+    height:auto;
+    margin-top: 40px;
     margin-left: 150px;
-
 }
 
-#nakovdjphoto {
-    width:250px;
-    height: 250px;
+.photo {
+    width:180px;
+    height: 200px;
     float:left;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-right: 20px;
 }
 
-
-#nakovinfo {
-    padding: 5px;
-    font-size: 20px;
-    color: #357682;
-}
-#nakovbiografia {
-    font-size: 20px;
-    font-style: italic;
+.biography {
     color: #357682;
     width: 900px;
-    height: 400px;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
     margin-left: 150px;
+    line-height: normal;
 }
 
-
-/*deyan*/
-#deyanprofile{
-    width:920px;
-    height:300px;
-    margin-top: 50px;
-    margin-left: 150px;
-  }
-#deyandjphoto{
-    width:250px;
-    height: 250px;
-    float:left;
-    border-radius: 5px;
-    margin-right: 20px;
+p::first-letter{
+    font-size: 28px;
 }
-#deyaninfo{
-    margin-top:30px;
-    padding-top:25px;
-    font-size: 20px;
-    color: #357682;
-}
-
-#deyanbiografia {
+p::first-line{
     font-size: 20px;
     font-style: italic;
-    color: #357682;
-    width: 900px;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 150px;
-}
-
-/*vladi*/
-#vladiprofile {
-    width: 920px;
-    height: 250px;
-    margin-top: 100px;
-    margin-left: 150px;
-}
-
-#vladidjphoto{
-    width:250px;
-    height: 250px;
-    float:left;
-    border-radius: 5px;
-    margin-right: 20px;
-
-}
-#vladiinfo{
-    margin-top:30px;
-    padding-top:25px;
-    font-size: 20px;
-    color: #357682;
-}
-#vladibiografia{
-    font-size: 20px;
-    font-style: italic;
-    color: #357682;
-    width:900px;
-    height:400px;
-    margin-top:20px;
-    margin-left: 150px;
 }
