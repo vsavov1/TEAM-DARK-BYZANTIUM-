@@ -101,7 +101,8 @@ table {
 #info{
     padding:70px;
     font-size: 18px;
-    color: #357682;
+    color: #F89B37;
+
 }
 #djphoto{
     width:220px;
@@ -132,5 +133,6 @@ li{
 }
 
 h2{
+    color: #F89B37;
     font-weight: bold;
 }
