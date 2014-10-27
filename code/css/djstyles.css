@@ -1,11 +1,93 @@
-/*The styles for the profile*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+}
+
+/* end of css resset  */
 @font-face {
-  font-family: 'segoeui';
-  src: url('font/segoeui.css') format('truetype');
- }
+    font-family: 'segoeui';
+    src: url('font/segoeui.ttf') format('truetype');
+}
+#wrap {
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+}
+#header {
+    width: 940px;
+    height: 72px;
+    margin: 0 auto;
+}
+#logo {
+    width: 232px;
+    height: 72px;
+    background-image: url('../img/logo.png');
+    float: left;
+}
+#menu {
+    float: right;
+}
+#menu ul {
+    vertical-align: middle;
+    line-height: 72px;
+}
+#menu ul li {
+    display: inline;
+    font-family: Segoe UI;
+}
+#menu ul li a:hover {
+    background-color: #357682;
+    border-radius: 3px;
+    color: #fff;
+}
+#menu ul li a {
+    text-decoration: none;
+    padding: 7px;
+    color: #357682;
+}
+
 
 #wrapper{
     font-family: Segoe UI;
+    width: 940px;
 	font-size: 14px;
 }
 
@@ -17,22 +99,23 @@
 
 }
 #info{
-
     padding:70px;
     font-size: 20px;
-
+    color: #357682;
 }
 #djphoto{
     width:250px;
-    height:250px;
+    height: 250px;
     float:left;
     margin: 50px 25px 0px 0px;
+    border-radius: 5px;
 }
 .stat{
     font-weight: 700;
 }
 .personal{
     font-style: italic;
+    color: #357682;
 }
 li{
     margin-bottom: 8px;
@@ -41,9 +124,13 @@ li{
 #biografia{
     font-size: 20px;
     font-style: italic;
+    color: #357682;
     width:900px;
     height:400px;
     margin-top:50px;
     margin-left: 150px;
 }
 
+h2{
+    font-weight: bold;
+}
