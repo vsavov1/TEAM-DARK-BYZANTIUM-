@@ -88,7 +88,7 @@ table {
 #wrapper{
     font-family: Segoe UI;
     width: 940px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 #profile{
@@ -100,12 +100,12 @@ table {
 }
 #info{
     padding:70px;
-    font-size: 20px;
+    font-size: 18px;
     color: #357682;
 }
 #djphoto{
-    width:250px;
-    height: 250px;
+    width:220px;
+    height: 200px;
     float:left;
     margin: 50px 25px 0px 0px;
     border-radius: 5px;
@@ -115,7 +115,6 @@ table {
     font-weight: 700;
 }
 .personal{
-    font-style: italic;
     color: #357682;
 }
 li{
@@ -123,12 +122,12 @@ li{
 }
 /*biografia*/
 #biografia{
-    font-size: 20px;
-    font-style: italic;
+    font-size: 18px;
+    line-height: normal;
     color: #357682;
     width:900px;
     height:400px;
-    margin-top:50px;
+    margin-top:10px;
     margin-left: 150px;
 }
 
