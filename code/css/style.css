@@ -250,12 +250,26 @@ ul.countdown li p {
   margin-top: 15px;
   line-height: 40px;
 }
-#programistkapic {
+#programistkapic1 {
   width: 100px;
   height: 333px;
   float: right;
   background-image: url('../img/programistka1.png');
   margin-right: 30px;
+  margin-top: -30px;
+}
+#programistkapic2 {
+  width: 143px;
+  height: 333px;
+  float: right;
+  background-image: url('../img/programistka2.png');
+  margin-top: -30px;
+}
+#programistkapic3 {
+  width: 107px;
+  height: 333px;
+  float: right;
+  background-image: url('../img/programistka3.png');
   margin-top: -30px;
 }
 .price{
