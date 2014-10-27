@@ -83,7 +83,8 @@ table {
     color: #357682;
 }
 
-#wrapper{
+
+#bodyWrapper{
     width: 940px;
     height: auto;
     margin: 0 auto;
