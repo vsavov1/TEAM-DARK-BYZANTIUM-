@@ -251,3 +251,7 @@ ul.countdown li p {
   margin-right: 30px;
   margin-top: -30px;
 }
+.price{
+    font-family: monospace;
+    font-style: italic;
+}
