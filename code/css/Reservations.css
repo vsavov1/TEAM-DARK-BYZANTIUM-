@@ -120,6 +120,7 @@ body p {
 }
  body td.popup:hover{
      background-color: #357682;
+     border-radius: 5px;
      cursor: pointer;
  }
 
