@@ -39,6 +39,12 @@ q:before, q:after {
 }
 
 /* end of css resset  */
+body{
+    background-image: url("../img/spiders_web.png");
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
+
 @font-face {
   font-family: 'segoeui';
   src: url('font/segoeui.css') format('truetype');

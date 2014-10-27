@@ -42,6 +42,12 @@ table {
 }
 
 /* end of css resset  */
+body{
+    background-image: url("../img/spiders_web.png");
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
+
 @font-face {
     font-family: 'segoeui';
     src: url('font/segoeui.ttf') format('truetype');
@@ -97,7 +103,7 @@ table {
 #partyImg{
     background-image: url(../img/SoftUniPartyLogo.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 45%;
     background-size: contain;
     height: 200px;
     }
@@ -105,7 +111,7 @@ table {
 article{
     display: inline-block;
     margin-top: 30px;
-    margin-left: 10%
+    margin-left: 20%
 }
 
 h1{
