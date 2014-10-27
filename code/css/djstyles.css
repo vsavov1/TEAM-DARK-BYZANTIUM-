@@ -42,6 +42,11 @@ table {
 }
 
 /* end of css resset  */
+body{
+    background-image: url("../img/spiders_web.png");
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
 @font-face {
     font-family: 'segoeui';
     src: url('font/segoeui.ttf') format('truetype');
@@ -88,7 +93,7 @@ table {
 #wrapper{
     font-family: Segoe UI;
     width: 940px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 
@@ -114,9 +119,21 @@ h2{
     margin-left: 150px;
 
 }
+<<<<<<< HEAD
 #nakovdjphoto{
     width:250px;
     height: 250px;
+=======
+#info{
+    padding:70px;
+    font-size: 18px;
+    color: #F89B37;
+
+}
+#djphoto{
+    width:220px;
+    height: 200px;
+>>>>>>> origin/master
     float:left;
     margin: 50px 25px 0px 0px;
     border-radius: 5px;
@@ -126,9 +143,13 @@ h2{
     font-size: 20px;
     color: #357682;
 }
+<<<<<<< HEAD
 #nakovbiografia{
     font-size: 20px;
     font-style: italic;
+=======
+.personal{
+>>>>>>> origin/master
     color: #357682;
     width:900px;
     height:400px;
@@ -155,6 +176,7 @@ h2{
     font-size: 20px;
     color: #357682;
 }
+<<<<<<< HEAD
 #deyanbiografia{
     font-size: 20px;
     font-style: italic;
@@ -162,6 +184,16 @@ h2{
     width:900px;
     height:400px;
     margin-top:20px;
+=======
+/*biografia*/
+#biografia{
+    font-size: 18px;
+    line-height: normal;
+    color: #357682;
+    width:900px;
+    height:400px;
+    margin-top:10px;
+>>>>>>> origin/master
     margin-left: 150px;
 }
 /*vladi*/
@@ -171,6 +203,12 @@ h2{
     margin-top: 100px;
     margin-left: 150px;
 
+<<<<<<< HEAD
+=======
+h2{
+    color: #F89B37;
+    font-weight: bold;
+>>>>>>> origin/master
 }
 #vladidjphoto{
     width:250px;
