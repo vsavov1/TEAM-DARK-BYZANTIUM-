@@ -91,25 +91,6 @@ table {
 	font-size: 14px;
 }
 
-#profile{
-    width:920px;
-    height:300px;
-    margin-top: 50px;
-    margin-left: 150px;
-
-}
-#info{
-    padding:70px;
-    font-size: 20px;
-    color: #357682;
-}
-#djphoto{
-    width:250px;
-    height: 250px;
-    float:left;
-    margin: 50px 25px 0px 0px;
-    border-radius: 5px;
-}
 
 .stat{
     font-weight: 700;
@@ -121,8 +102,31 @@ table {
 li{
     margin-bottom: 8px;
 }
-/*biografia*/
-#biografia{
+h2{
+    font-weight: bold;
+}
+
+/*nakov*/
+#nakovprofile{
+    width:920px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+#nakovdjphoto{
+    width:250px;
+    height: 250px;
+    float:left;
+    margin: 50px 25px 0px 0px;
+    border-radius: 5px;
+}
+#nakovinfo{
+    padding:70px;
+    font-size: 20px;
+    color: #357682;
+}
+#nakovbiografia{
     font-size: 20px;
     font-style: italic;
     color: #357682;
@@ -131,7 +135,63 @@ li{
     margin-top:50px;
     margin-left: 150px;
 }
+/*deyan*/
+#deyanprofile{
+    width:920px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+#deyandjphoto{
+    width:250px;
+    height: 250px;
+    float:left;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#deyaninfo{
+    margin-top:30px;
+    padding-top:25px;
+    font-size: 20px;
+    color: #357682;
+}
+#deyanbiografia{
+    font-size: 20px;
+    font-style: italic;
+    color: #357682;
+    width:900px;
+    height:400px;
+    margin-top:20px;
+    margin-left: 150px;
+}
+/*vladi*/
+#vladiprofile{
+    width:920px;
+    height:250px;
+    margin-top: 100px;
+    margin-left: 150px;
 
-h2{
-    font-weight: bold;
+}
+#vladidjphoto{
+    width:250px;
+    height: 250px;
+    float:left;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+#vladiinfo{
+    margin-top:30px;
+    padding-top:25px;
+    font-size: 20px;
+    color: #357682;
+}
+#vladibiografia{
+    font-size: 20px;
+    font-style: italic;
+    color: #357682;
+    width:900px;
+    height:400px;
+    margin-top:20px;
+    margin-left: 150px;
 }
