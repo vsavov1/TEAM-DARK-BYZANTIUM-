@@ -37,13 +37,6 @@ q:before, q:after {
   content: '';
   content: none;
 }
-
-/* end of css resset  */
-body{
-    background-image: url("../img/spiders_web.png");
-    background-size: 130px;
-    background-repeat: no-repeat;
-}
 @font-face {
   font-family: 'segoeui';
   src: url('font/segoeui.css') format('truetype');
@@ -84,3 +77,60 @@ body{
   padding: 7px;
   color: #357682;
 }
+body{
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url("../img/sk.jpg");
+    background-repeat: no-repeat;
+    background-position: 40% -35%;
+
+}
+#contacts-block{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 720px;
+    padding: 15px;
+    margin-top:70px;
+    margin-left: 7px;
+    float: left;
+
+}
+input{
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+}
+#form{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: orange;
+    width: 200px;
+    float: right;
+    position: relative;
+    right: 28%;
+    top: 68px;
+}
+p{
+    padding: 2px;
+}
+h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+button{
+    width: 140px;
+    height: 30px;
+    margin-left: 30px;
+    margin-bottom: 2px ;
+}
+textarea{
+    width: 169px;
+    height: 30px;
+    margin-top: 10px;
+    resize: none;
+    margin-left: 10px;
+}
+
