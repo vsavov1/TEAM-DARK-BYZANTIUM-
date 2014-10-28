@@ -375,7 +375,9 @@ body td.empty{
 #bottomTable{
     margin-left: 25%;
 }
-
+#fill {
+  height: 15px;
+}
 #res body p {
     font-family: Segoe UI;
     font-size: 13px;
