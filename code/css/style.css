@@ -593,6 +593,7 @@ table {
     background-position: 45%;
     background-size: contain;
     height: 200px;
+    margin-top: 30px;
     }
 
 article{
@@ -844,7 +845,7 @@ td.popup {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 940px;
-    height: 300px;
+    height: auto;
     display: block;
 }
 
@@ -907,6 +908,6 @@ td.popup {
     height: 30px;
     width: 100px;
     color: #ffffff;
-    background-color: #821329;
+    background-color: #357682;
     margin-bottom: 20px;
 }
