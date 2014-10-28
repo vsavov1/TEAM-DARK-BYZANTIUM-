@@ -84,6 +84,11 @@ body{
   border-radius: 3px;
   color: #fff;
 }
+.checked {
+  background-color: #357682;
+  border-radius: 3px;
+  color: #fff;
+}
 #menu ul li a {
   text-decoration: none;
   padding: 7px;
@@ -498,6 +503,7 @@ td.popup {
   font-size: 20px;
   color: #F89B37;
   font-family: Segoe UI;
+  font-weight: bold;
 }
 .info p {
   color: #357682;
@@ -506,11 +512,12 @@ td.popup {
   line-height: 30px;
 }
 .track {
-  width: 114px;
+  width: 133px;
   height: 25px;
   color: #F89B37;
   font-size: 20px;
   font-family: Segoe UI;
+  font-weight: bold;
 }
 .biograpghy {
   width: 940px;
@@ -519,6 +526,7 @@ td.popup {
   color: #357682;
   font-family: Segoe UI;
   font-size: 18px;
+  line-height: normal;
 }
 /* djs */
 /* confirmation PopUp */
