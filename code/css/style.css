@@ -584,6 +584,7 @@ table {
 .price{
     font-family: monospace;
     font-style: italic;
+    color: black;
 }
 
 /* aboutparty */
