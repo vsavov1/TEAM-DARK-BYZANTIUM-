@@ -469,22 +469,22 @@ td.popup {
   margin-bottom: 40px;
 }
 #pic1 {
-  width: 200px;
-  height: 226px;
+  width: 180px;
+  height: 200px;
   background-image: url('../img/DJs/Nakov.png');
   float: left;
   margin-bottom: 20px;
 }
 #pic2 {
-  width: 200px;
-  height: 251px;
+  width: 170px;
+  height: 210px;
   background-image: url('../img/DJs/deyan.jpg');
   float: left;
   margin-bottom: 20px;
 }
 #pic3 {
-  width: 200px;
-  height: 265px;
+  width: 180px;
+  height: 230px;
   background-image: url('../img/DJs/vlado.jpg');
   float: left;
   margin-bottom: 20px;
