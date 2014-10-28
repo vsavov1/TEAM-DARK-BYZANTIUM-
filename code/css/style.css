@@ -565,6 +565,14 @@ table {
       margin-left: 682px;
       margin-top: -42px;
     }
+     #softuni {
+         width: 36px;
+         height: 28px;
+         background-image: url('../img/softunilogo.png');
+         float:left;
+         margin-left: 630px;
+         margin-top: -42px;
+     }
  }
 
 #programistkapic2 {
