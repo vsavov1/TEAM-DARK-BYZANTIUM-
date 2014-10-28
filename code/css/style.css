@@ -807,6 +807,7 @@ td.popup {
     font-family: Segoe UI;
     color: #2b5f69;
     background: none;
+    margin-left: 10px;
 }
 
 #confPopUp p{
