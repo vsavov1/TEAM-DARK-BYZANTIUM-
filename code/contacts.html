@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Softuni Halloween Party</title>
-	<link rel="stylesheet" type="text/css" href="CSS/Contacts.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<meta charset="utf-8">
 
 </head>
@@ -22,25 +22,34 @@
 			</div>
 		</div>
 	</div>
-<div id="contacts">
-    <div id="contacts-block">
-        <h2>За контакти с нас</h2>
-        <p>Адрес: София, кв. Хаджи Димитър, ул. "Васил Кънчев" 26,
-	    Бизнес център "Стефан Караджа", вх. Д, етаж 4</p>
-	    <p>Работно време: 10:00 - 18:00 (понеделник - петък)</p>
-	    <p>Телефонен номер: 088546345</p>
-        <p>Email adress: Softuni@gmail.com</p>
-        <p>Пощенски код: 1510 </p>
+    <div id="contactsPage">
+            <form id="forms">
+                <input id="name" type="text" placeholder="Име:*">
+
+                <div id="mailAndTheme">
+                <input id="mail" type="text" placeholder="Имейл:*">
+                <input id="theme" type="text" placeholder="Тема:*">
+                </div>
+
+                <textarea id="message" placeholder="Съобщение..."></textarea><br>
+                <button id="submitButton" type="submit">Изпращане</button>
+            </form>
+
+        <div id="contactsText">
+            <p class="contactsInfo"><img src="img/contactIcons/tag.png"/> София, кв. Хаджи Димитър, ул. "Васил Кънчев" 26, Бизнес център "Стефан Караджа", вх. Д, етаж 4</p>
+            <p class="contactsInfo"><img src="img/contactIcons/e-mail.png"/> softuni@gmail.com</p>
+            <p class="contactsInfo"><img src="img/contactIcons/phone.png"/>
+                тел. 088546345<br>
+                Работно време: 10:00 - 18:00 (понеделник - петък)
+            </p>
+        </div>
+
+        <div id="googleMap" style="width: 600px">
+            <iframe width="600" height="300" src="http://regiohelden.de/google-maps/map_en.php?width=600&amp;height=300&amp;hl=en&amp;q=softuni+(%D0%A1%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%D0%B5%D0%BD%20%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <a href="http://www.regiohelden.de/google-maps/">Google Maps Script</a> von <a href="http://www.regiohelden.de/">RegioHelden</a>
+            </iframe><br /><span style="font-size: 9px;"><a href="http://www.regiohelden.de/google-maps/" style="font-size: 9px;">Google Maps Script</a> by <a href="http://www.regiohelden.de/" style="font-size: 9px;">RegioHelden</a></span>
+        </div>
+
     </div>
-    <div id="form">
-    <form>
-	<input id="name" type="text" placeholder="Your Name" required="required">
-        <input id="Second Name" type="text" placeholder="Second Name" required="required">
-        <input id="Email" type="email" placeholder="Email" required="required">
-        <textarea id="question" type="text" placeholder="Your Question" required="required"></textarea>
-        <button>Submit</button>
-    </form>
-    </div>
-</div>
 </body>
 </html>

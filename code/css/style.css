@@ -781,12 +781,13 @@ td.popup {
   font-weight: bold;
 }
 .biograpghy {
+  text-indent: 20px;
   width: 940px;
   float: left;
   margin-top: 30px;
   color: #357682;
   font-family: Segoe UI;
-  font-size: 18px;
+  font-size: 16px;
   line-height: normal;
 }
 /* djs */
@@ -834,3 +835,78 @@ td.popup {
     margin-top: 20px;
 }
 /* end confirmation PopUp */
+/* contacts */
+
+#contactsPage{
+    font-family:  Segoe UI;
+    color: #357682;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 940px;
+    height: 300px;
+    display: block;
+}
+
+#forms{
+    float: left;
+    font-family:  Segoe UI;;
+    width: 510px;
+    height: auto;
+}
+
+#contactsText{
+    float: right;
+    width: 360px;
+    height: auto;
+}
+
+#name{
+    font-family:  Segoe UI;
+    padding-left: 3px;
+    width: 500px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#mailAndTheme{
+    display: inline;
+}
+
+#mail{
+    font-family:  Segoe UI;
+    padding-left: 3px;
+    width: 245px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#theme{
+    font-family:  Segoe UI;
+    padding-left: 3px;
+    width: 245px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#message{
+    font-family:  Segoe UI;
+    padding-left: 3px;
+    width: 500px;
+    height: 150px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.contactsInfo{
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+#submitButton{
+    float: right;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #821329;
+    margin-bottom: 20px;
+}
