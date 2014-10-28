@@ -330,37 +330,38 @@ ul.countdown li p {
     }
 
 article{
+    font-family: Segoe UI;
+    color: #357682;
     display: inline-block;
     margin-top: 30px;
     margin-left: 20%;
     padding-bottom: 20px;
 }
 
-.abouth1{
+.about1{
     font-size: 16px;
     font-weight: bold;
 }
 
-.abouth2{
+.about2{
     font-size: 15px;
     font-weight: bold;
     color: #F89B37;
 }
 /* aboutparty */
 
-/* reservation */
-body table{
-    border: 2px dashed #785A3B;
-    border-radius: 3%;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    padding: 15px;
-    padding-bottom: 10px;
+/* reservations */
+#res table{
+    font-family: Segoe UI;
+    border-collapse: separate;
+    border-radius: 5px;
+    border: 5px solid #785A3B;
+    padding: 10px;
     background-color: #efefef;
     margin: 0 auto;
 }
 
-body td.popup {
+td.popup {
     display:inline-block;
     background-image: url('../img/Reservations/masa.png');
     background-size: contain;
@@ -368,8 +369,8 @@ body td.popup {
     height: 60px;
 }
 
-body td.empty{
-    width: 60px;
+#res td.empty{
+    width: 50px;
 }
 
 #bottomTable{
@@ -378,18 +379,18 @@ body td.empty{
 #fill {
   height: 15px;
 }
-#res body p {
+#res table p {
     font-family: Segoe UI;
     font-size: 13px;
     color: #EFEFEF;
     width: 40px;
     height: 40px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 6px;
     margin-left: 3px;
     padding: 7px;
 }
- body td.popup:hover{
+ #res td.popup:hover{
      background-color: #357682;
      border-radius: 5px;
      cursor: pointer;
@@ -397,18 +398,17 @@ body td.empty{
 
 
 #wall{
-    display: inline-block;
     text-align: right;
-    width: 15px;
-    height: 150px;
+    width: 5px;
+    height: 140px;
     background-image: url('../img/Reservations/kolona.png');
-    background-size: contain;
-    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 140px;
 }
 
 #dj{
     display: inline-block;
-    font-family: Segoe UI;
     font-size: 25px;
     color: #EFEFEF;
     text-align: center;
@@ -444,13 +444,19 @@ body td.empty{
 }
 
 #intro{
-    display: block;
+    text-align: center;
     font-family: Segoe UI;
     font-size: 16px;
     font-weight: bold;
     color: #357682;
-    width: 450px;
+    padding-bottom: 20px;
+}
+
+#hall{
+    width: 600px;
+    height: auto;
     margin: 0 auto;
+    margin-top: 10px;
 }
 /* reservation */
 
@@ -515,3 +521,47 @@ body td.empty{
   font-size: 18px;
 }
 /* djs */
+/* confirmation PopUp */
+
+#confPopUp{
+    font-family: Segoe UI;
+    color: #2b5f69;
+    background: none;
+}
+
+#confPopUp p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#selected_table{
+    font-weight: bold;
+    color: #1e3a41;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#confPopUp h1{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.nameBox{
+    height: 16px;
+    resize: none;
+    color: #2b5f69;
+}
+
+.popUpSelector{
+    color: #2b5f69;
+    margin-top: 20px;
+}
+
+#popUpButton{
+    font-family:  Segoe UI;;
+    display: block;
+    color: #2b5f69;
+    margin-top: 20px;
+}
+/* end confirmation PopUp */

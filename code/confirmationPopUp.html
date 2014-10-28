@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
-    <link href="css/confirmationPopUp.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title></title>
     <script>
         function getWindowName(){
@@ -17,7 +17,7 @@
     </script>
 </head>
 
-<body onload="getWindowName()">
+<body id="confPopUp" onload="getWindowName()">
 
     <p id="selected_table"></p>
 
@@ -27,20 +27,20 @@
     <textarea class="nameBox" onfocus="clearBox(this)">Фамилия</textarea>
 
     <p>Предпочитан алкохол:</p>
-    <select class="selector">
+    <select class="popUpSelector">
         <option>Уиски</option>
         <option>Водка</option>
         <option>Бира</option>
     </select>
 
     <p>Предпочитана програмистка:</p>
-    <select class="selector">
-        <option>Java Girl</option>
-        <option>C++ Girl</option>
-        <option>HTML Girl</option>
+    <select class="popUpSelector">
+        <option>Програмистка HTML + CSS</option>
+        <option>Програмистка PHP + MySQL</option>
+        <option>Програмистка ASP.NET + C#</option>
     </select>
 
-    <input type="button" value="Потвърди" onClick='alert("Успешна резервация!"); window.close();'>
+    <input type="button" id="popUpButton" value="Потвърди" onClick='alert("Успешна резервация!"); window.close();'>
 
 </body>
 
