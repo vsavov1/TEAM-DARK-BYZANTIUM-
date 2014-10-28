@@ -43,17 +43,13 @@ table {
 
 /* end of css resset  */
 
-body{
-    background-image: url("../img/spiders_web.png");
-    background-size: 130px;
-    background-repeat: no-repeat;
-}
+
 
 @font-face {
   font-family: 'segoeui';
   src: url('font/segoeui.ttf') format('truetype');
  }
-  @media only screen and (min-width: 768px) and (max-width: 959px){
+  @media only screen and (min-width: 400px) and (max-width: 959px){
         #wrap {
         width: 658px;
         height: auto;
@@ -306,6 +302,11 @@ body{
       }
  }
  @media only screen and (min-width: 939px) {
+    body{
+    background-image: url("../img/spiders_web.png");
+    background-size: 130px;
+    background-repeat: no-repeat;
+    }
     #wrap {
     width: 940px;
     height: auto;
@@ -502,6 +503,14 @@ body{
       margin-left: 15px;
       margin-top: 15px;
       line-height: 40px;
+    }
+     #programistkapic1 {
+      width: 100px;
+      height: 333px;
+      float: right;
+      background-image: url('../img/programistka1.png');
+      margin-right: 30px;
+      margin-top: -30px;
     }
     #programistkapic11 {
       width: 100px;
